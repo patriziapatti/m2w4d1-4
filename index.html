@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs positions</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <h1>Looking for a job?</h1>
+        <h2>We can help you!</h2>
+    
+    <div id="ricerca">
+
+    <form action=""> 
+
+        <label for="location">Insert a Location</label>
+        <input type="text" name="location" id="location" value="">
+        <label for="ruolo">Insert a Job Title </label>
+        <input type="text" name="ruolo" id="ruolo" value=""> 
+        <input type="button" onclick="aggiungiLavori()" name="Cerca" id="Cerca" value="Search">
+ 
+    </form>
+</div>
+
+<div id="risultati">
+    <ul id="listaRisultati">
+    </ul>
+
+</div>
+
+    <script src="scaricabile.js" defer></script>
+</body>
+</html>

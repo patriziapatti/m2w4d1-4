@@ -1,0 +1,41 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 70%;
+    background-color:rgb(224, 224, 245)
+
+}
+
+h2, h1 {
+padding: 10px;
+}
+
+label, input{
+    padding: 10px;
+}
+
+input{
+    border-radius: 20px;
+    border-style:initial;
+}
+
+#ricerca {
+    padding: 10px;
+}
+
+
+#risultati {
+    
+    padding: 10px;
+}
+
+
+li{
+    color: red;
+    font-weight: bold;
+}
+
+p{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
