@@ -1,12 +1,60 @@
+*{box-sizing: border-box;}
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 70%;
-    background-color:rgb(224, 224, 245)
-
+    margin: 0;
 }
 
-h2, h1 {
-padding: 10px;
+header{
+    background-color: white;
+    box-shadow: 0.5px 2px 10px 2px rgba(128, 128, 128, 0.297);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}   
+
+header img{
+    max-width: 40%;
+    height: 80px;
+    width: 250px;
+    
+}  
+
+#icons{
+    padding-right: 50px;
+}
+
+#icons i{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#icons button{
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 0.1px solid gray;
+}
+
+#fintoMenu{
+    border-bottom: 0.1px solid rgba(128, 128, 128, 0.306);  
+    text-align: center;  
+}
+
+#fintoMenu ul li{
+    display: inline;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 40px;
+    font-weight: bold;
+}
+
+
+#h2job, #h3job {
+    padding: 10px;
+}
+
+#pjob{
+    padding: 10px;
 }
 
 label, input{
@@ -15,7 +63,11 @@ label, input{
 
 input{
     border-radius: 20px;
-    border-style:initial;
+}
+
+#Cerca{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 #ricerca {
@@ -24,18 +76,81 @@ input{
 
 
 #risultati {
-    
     padding: 10px;
 }
 
 
-li{
-    color: red;
+#risultati li{
     font-weight: bold;
 }
 
 p{
-    color: red;
-    font-weight: bold;
     font-size: large;
+}
+
+#principale{
+    display: flex;
+}
+
+#formRicerca{
+    width: 30%;
+    border-right: .1px solid rgba(128, 128, 128, 0.306)
+
+}
+#articoli{
+    width: 70%;
+    border-left:.1px solid rgba(128, 128, 128, 0.306) ;
+}
+
+.titolo{
+    align-items: center;
+    padding-left: 20px;
+    border-bottom: .1px solid rgba(128, 128, 128, 0.306)
+}
+
+.titolo h3 img{
+    width: 20px;
+    height: 20px;
+}
+
+.titolo nav ul {
+    padding: 0;
+}
+
+.titolo nav ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    color: gray;
+}
+
+.titolo nav ul li button{
+    border-radius: 40px;
+    border: none;
+    color: gray;
+    padding: 5px 15px;
+}
+
+.parAr{
+    color: black;
+    font-weight: lighter;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer img{
+    max-width: 40%;
+    height: 80px;
+    width: 250px;
+}
+
+#navDelFooter ul li{
+    display: inline;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 40px;
 }

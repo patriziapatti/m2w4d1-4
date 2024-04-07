@@ -163,47 +163,13 @@ function aggiungiLavori(){
     contenitore.appendChild (nuovoElemento)
   }
   const contatore = document.createElement ("p")
-  contatore.innerText = lavoriFiltrati.count + " Job(s) Found:"
+  contatore.innerText = lavoriFiltrati.count + " Job(s) found:"
   const risultati = document.getElementById ("listaRisultati")
   risultati.insertBefore (contatore, risultati.firstChild) // per avere il contatore prima dei risultati
 
   //document.getElementById ("risultati").appendChild (contatore)
 } 
-
-//per fare in modo di non aggiungere continuamente ogni cosa dobbiamo mettere ul.innerHTML = "" prima del for
-
-//devo appendChild
-
 //prendere il valore dell'utente
 //far si che il pulsante ce lo restituisca
 //funzione legata al pulsante
-
-/*function aggiungiLavori(){
-  let location = document.getElementById ("location").value
-  let title= document.getElementById  ("ruolo").value
-  let contenitore = document.getElementById ("listaRisultati")
-  let elementoAggiunto = document.createElement ("li")
-  elementoAggiunto.innerText = location.value, title.value
-  contenitore.appendChild(elementoAggiunto)
-}
-*/
-
-
-
-
-/*
-function cercaLavori (location, title){
-  // qui devo richiamarmi document. ecc ecc per il primo input
-  
-   // qui devo richiamarmi document. ecc ecc per il primo input
-   let result = []
-  for (let j of jobs){
-    console.log (j.title)
-    console.log (j.location)
-  } if ()
-  
-}
-
-
-
-cercaLavori (location,ruolo)*/
+//devo appendChild
